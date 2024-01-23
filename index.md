@@ -56,7 +56,37 @@ Now we can use Excel's autofill feature to complete the rest of our table.
 ![FinishedTable](Example1 pic 7.jpg)
 
 
-## Practice Data
-image placeholder/link
+## Example 2
 
+This time we will look at a different kind of table that we can use VLookup to help us with. This table has the tax percentages based on how much taxable income you make, so we want to use VLookup in order to see how much each of these people's incomes are going to be taxed.
+
+![newtable](Example2 pic 1.jpg)
+
+As you can see, we have no exact matches in our lookup column with the table that we want to search through. This is a perfect opportunity to use approximate matching. We follow the same steps as before, first choosing the first value of our lookup column from the income column.
+
+![lookup](Example2 pic 2.jpg)
+
+We then select our table array, getting both Taxable Income and Tax percentage and ensuring it is an absolute reference.
+
+![tablearray](Example2 pic 3.jpg)
+
+Because we want to find the tax percentage, we use 2 as our column index because it is 1 over from the first column in our table array. 
+
+![index](Example2 pic 4.jpg)
+
+Finally, because in this case we're looking for approximate matches, we use TRUE. This will find the closest match of tax percentage to the amount of taxable income.
+
+![true](Example2 pic 5.jpg)
+
+Pressing enter gives us the tax amount for our first search value.
+
+![onevalue](Example2 pic 6.jpg)
+
+Utilizing the Excel autofill we can quickly fill out the rest of the column with the approximate tax percentages.
+
+![alldone](Example2 pic 7.jpg)
+
+## Practice Data
+![qr](qrcode.jpg)
+[Link to Excel File](https://github.com/toftke/AdvancedDataScience/blob/main/VLOOKUPDATA.xlsx).
 That is all there is to using VLookup in Excel. Above is a QR code and link to an xlsx file with data that you can use to practice or play around with VLookup
