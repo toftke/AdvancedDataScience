@@ -88,5 +88,7 @@ Utilizing the Excel autofill we can quickly fill out the rest of the column with
 
 ## Practice Data
 ![qr](qrcode.jpg)
+
 [Link to Excel File](https://github.com/toftke/AdvancedDataScience/blob/main/VLOOKUPDATA.xlsx).
+
 That is all there is to using VLookup in Excel. Above is a QR code and link to an xlsx file with data that you can use to practice or play around with VLookup
