@@ -20,7 +20,7 @@ The table array is the range of data that you want your data to look through. Yo
 
 Image placeholder of absolute reference
 
-If you want to quickly utilize VLookup using Excel's autofill feature, make sure that you make the table an absolute reference by pressing F4 when you highlight the table array, otherwise it will increment with the autofil and you may have errors.
+If you want to quickly utilize VLookup using Excel's autofill feature, make sure that you make the table an absolute reference by pressing F4 when you highlight the table array, otherwise it will increment with the autofill and you may have errors.
 
 ## Column Index Number
 image placeholder
