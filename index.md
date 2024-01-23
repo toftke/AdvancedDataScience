@@ -34,8 +34,12 @@ Optionally, you can decide if you want an approximate value or if you want an ex
 
 ## Putting it all together
 So now we have the value we want to search with, our table array that we will look through, the index of the column that we want to search through, and we have decided if we want an approximate or exact match. 
+
 image placeholder
+
 Simply press enter and the function will return the value in the cell that is in the same row as our lookup value and the column that we indexed. 
+
+Image placeholder
 
 ## Practice Data
 image placeholder/link
