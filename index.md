@@ -6,7 +6,7 @@ The formula for VLookup has 4 different parts, the lookup value, the table array
 We'll examine each part of the formula by itself before putting it all together.
 
 ## Why should you use VLookup
-VLookup is useful as a tool when your dataset is large and you're looking for a match to a specific value, it's most useful when you have a large number of unique lookup values to search with, because you can autofill an entire column with useful data instead of having to manually search for each the corresponding values in the columns.
+VLookup is useful as a tool when your dataset is large and you're looking for a match to a specific value. It's most useful when you have a large number of unique lookup values to search with. This is because you can autofill an entire column with useful data instead of having to manually search for each the corresponding values in the columns.
 
 ## The Lookup Value
 Image placeholder
