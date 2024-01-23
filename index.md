@@ -1,27 +1,31 @@
-This is a basic tutorial on how to use the Vlookup tool in Microsoft Excel with examples included for some useful situations
+This is a basic tutorial on how to use the Vlookup tool in Microsoft Excel with examples included for some useful situations.
 
 ## What is Vlookup?
-VLookup is an excel tool that finds a match for a selected value within a different column of your table.
+VLookup stands for vertical lookup and is an excel tool that finds a match for a selected value within a different column of your table.
 The formula for VLookup has 4 different parts, the lookup value, the table array, the column index number, and the Approximate match.
 We'll examine each part of the formula by itself before putting it all together.
 
 ## Why use VLookup
-VLookup is useful as a tool when your dataset is large and you're looking for a match to a specific value 
+VLookup is useful as a tool when your dataset is large and you're looking for a match to a specific value, it's most useful when you have a large number of unique lookup values to search with, because you can autofil an entire column with useful data instead of having to manually search for each the corresponding values in the columns
 
 ## The Lookup Value
 Image placeholder
 
-The Lookup Value is a sort of reference value that you will use in order to search through your data
+The Lookup Value is a sort of reference value that you will use in order to search through your data. This value should be in the leftmost column of your table, and if you plan on using approximate match, the column needs to be sorted numerically.
 
 ## Table Array
 image placeholder
 
-The table array is the range of data that you want your data to look through
+The table array is the range of data that you want your data to look through. Your table array should contain all of the values that you might want as lookup values as well as the entire column that you want to search through.
+
+Image placeholder of absolute reference
+
+If you want to quickly utilize VLookup using Excel's autofil feature, make sure that you make the table an absolute reference by pressing F4 when you highlight the table array, otherwise it will increment with the autofil and you may have errors.
 
 ## Column Index Number
 image placeholder
 
-The Column index Number is the column you want to search through and find the match for your lookup value. Columns are indexed at 1, starting from the first column of your table array
+The Column index Number is the column you want to search through and find the match for your lookup value. Columns are indexed at 1, starting from the first column of your table array.
 
 ## Approximate Match
 image placeholder
